@@ -1,0 +1,188 @@
+*{
+  font-family: 'gilroy';
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  width: 100%;
+  background-color: #282828;
+  color: white;
+}
+.navh3{
+  background: none;
+  font-size: 42px;
+  margin: 9px;
+}
+
+.heading{
+  display: flex;
+  background: none;
+}
+
+.logo{
+  flex: 1;
+  background: none;
+}
+
+.ri-pinterest-fill{
+  background: none;
+  font-size: 46px;
+  margin-left: 15px;
+  
+  align-items: center;
+}
+
+.links1{
+  font-size: 30px;
+  margin: 5px;
+  background: none;
+  text-decoration: dashed;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 12px;
+  background-color: rgb(219, 29, 29);
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.links1:hover{
+  background-color: red;
+  transform: scale(1.1);  
+}
+
+.links{
+  display: flex;
+  padding-right: 20px;
+  gap: 30px;
+  align-items: center;
+  background: none;
+}
+  
+.bgblack{
+  background-color: #121212;
+}
+  
+  .containerpers {
+    color: #fff;
+    width: 600px;
+    background-color: #121212;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .cardpers {
+    color: #fff;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  
+  .profile-picture {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin: 0 auto 20px; */
+    margin-top: 10px;    
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #fff;
+  }
+  
+  .editprofile{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+    position: relative;
+    color: #fff;
+  }
+
+  .editspan{
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+  }
+
+  .pencil{
+    font-size: larger;
+    border-radius: 50%;
+    background-color: #282828;
+  }
+
+  .pencil:hover{
+    cursor: pointer;
+  }
+
+  .name, .username {
+    font-size: xx-large;
+  }
+  
+  .tagline {
+    font-size: 18px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #e60b16;
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    margin-top: 4px;
+    margin-bottom: 3px;
+  }
+  
+  .button:hover {
+    background-color: #aa0009;
+  }
+
+  .containerpins{
+    height: 300px;
+    width: 280px;
+    margin-left: 15px;
+    
+  }
+
+  .cardspins{
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  }
+
+  .card2{
+    padding-top: 5px;
+  }
+
+  .cardspins, .card2{
+    height: 100%;
+    width: 100%;
+  }
+  .card2 img{
+    height: 80%;
+    width: 90%;
+    object-fit: cover;
+  }
+
+  .card-body1 a, .card-body1 h5{
+    margin: 5px;
+    color: #fff;
+  }

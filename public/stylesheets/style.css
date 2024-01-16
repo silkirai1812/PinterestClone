@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
+  font-family: "gilroy";
+} 
+
+.container {
+  padding-bottom : 25px;
+  background-color: #282828;
+  width: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(27, 27, 27, 0.9);
+}
+
+.content {
+  width: 66%;
+  background-color: #282828;
+  margin: auto;
+  text-align: center;
+}
+
+.content form{
+  background-color: #282828;
+}
+
+.content a{
+  background-color: #282828;
+  color: #fff;
+  opacity: 0.7  ;
+  font-size: 16px;
+}
+
+.login, .signup{
+  margin-top: 25px;
+  font-size: 22px;
+  background-color: #282828;
+}
+ 
+.img1{
+  background-color: #282828;
+  width: 80px;
+  top: 10px
+}
+.header {
+  background-color: #282828;
+  color: white;
+  font-size: 44px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 0.9;
+}
+.detail {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;;
+  border: 2px solid rgb(218, 214, 214);
+  border-radius: 15px;
+}
+.detail:focus {
+  box-shadow: 0px -7px 3px -2px rgba(15, 91, 231, 0.4),
+    0px 7px 3px -2px rgba(15, 91, 231, 0.4),
+    7px 0px 3px -2px rgba(15, 91, 231, 0.4),
+    -7px 0px 3px -2px rgba(15, 91, 231, 0.4);
+  outline: none;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+  left: -60px;
+  margin: 5px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  border: hidden;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.int {
+  background-color: #f30d19;
+  margin: 15px 0px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.int:hover{
+  background-color: #df0812;
+}
+
+
+.error{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(216, 23, 23);
+  text-transform: capitalize;
+  margin: 7px;
+  background-color: #282828;
+}

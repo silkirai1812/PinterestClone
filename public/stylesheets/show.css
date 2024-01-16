@@ -1,0 +1,107 @@
+*{
+    font-family: 'gilroy';
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: #121212;
+  }
+
+  .navbar{
+    width: 100%;
+    background-color: #282828;
+    color: white;
+  }
+  .navh3{
+    background: none;
+    font-size: 42px;
+    margin: 10px;
+  }
+
+  .heading{
+    display: flex;
+    background: none;
+  }
+
+  .logo{
+    flex: 1;
+    background: none;
+  }
+
+  .ri-pinterest-fill{
+    background: none;
+    font-size: 45px;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .links1{
+    font-size: 30px;
+    margin: 10px;
+    background: none;
+    text-decoration: dashed;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 12px;
+    background-color: rgb(219, 29, 29);
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .links1:hover{
+    background-color: red;
+    transform: scale(1.1);  
+  }
+
+  .links{
+    display: flex;
+    padding-right: 20px;
+    gap: 30px;
+    align-items: center;
+    background: none;
+  }
+
+  .postcontainer{
+    width: 100%;
+    background-color: #121212;
+    padding: 10px 8px; 
+    color: #fff;
+  }
+
+  .postcards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: start;
+  }
+
+
+  .card1{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+
+  img{
+    object-fit: cover;
+  }
+
+  .posttitle{
+    margin-left: 24px;
+    margin-top: 3px;
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 0.85;
+  }
+
+  .usertitle{
+    margin-left: 24px;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 0;
+  }

@@ -1,0 +1,155 @@
+  *{
+    font-family: 'gilroy';
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    width: 100%;
+    background-color: #282828;
+    color: white;
+  }
+  .navh3{
+    background: none;
+    font-size: 42px;
+    margin: 10px;
+  }
+
+  .heading{
+    display: flex;
+    background: none;
+  }
+
+  .logo{
+    flex: 1;
+    background: none;
+  }
+
+  .ri-pinterest-fill{
+    background: none;
+    font-size: 45px;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .links1{
+    font-size: 30px;
+    margin: 10px;
+    background: none;
+    text-decoration: dashed;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 12px;
+    background-color: rgb(219, 29, 29);
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .links1:hover{
+    background-color: red;
+    transform: scale(1.1);  
+  }
+
+  .links{
+    display: flex;
+    padding-right: 20px;
+    gap: 30px;
+    align-items: center;
+    background: none;
+  }
+
+  .addpost{
+    width: 100%;
+    padding: 10px 5px;
+    color: white;
+  }
+  .addposth1{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .addposthr{
+    opacity: 0.2;
+    margin-top: 3px;
+  }
+  
+  .form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .addpostform{
+    padding: 10px;
+  }
+
+  input, textarea{
+    display: block;
+    padding: 3px 2px;
+    width: 1/3;
+    border-radius: 10px;
+  }
+
+  .choose{
+    display: inline-block;
+      padding: 20px 30px;
+      background: transparent;
+      color: #fff;
+      border: 1px solid #3f3f3f;
+      border-radius: 15px;
+      width: 400px;
+      margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    font-size: larger;
+  }
+
+  .choose[type="file"] {
+      cursor: pointer;
+    }
+
+    .title{
+        padding: 20px 30px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid #3f3f3f;
+        border-radius: 15px;
+        margin: 10px;
+        font-size: larger;
+        width: 400px;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    .description{
+        padding: 10px 20px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid #3f3f3f;
+        border-radius: 15px;
+        margin: 10px;
+        font-size: larger;
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    }
+
+  .submit-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: red;
+    width: 60%;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  }
